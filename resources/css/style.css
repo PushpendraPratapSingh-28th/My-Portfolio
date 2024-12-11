@@ -1,0 +1,363 @@
+/* General CSS */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../images/bg-image.jpg);
+    color: rgb(255, 255, 255);
+}
+
+section {
+    padding-top: 48px;
+}
+
+.container {
+    padding: 20px 12px 0 12px;
+}
+
+.container>h2 {
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    margin-bottom: 48px;
+    /* color: #ffffff; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    /* text-align: left; */
+}
+
+li {
+    list-style: none;
+}
+
+/* .row>h2 {
+    text-align: center;
+    font-size: xxx-large;
+    padding: 70px 0;
+    font-weight: bold;
+} */
+
+
+/* Navbar CSS */
+nav {
+    border-bottom: 1px dashed rgb(256, 256, 256, .2);
+}
+
+.navbar-brand,
+.nav-link {
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-link {
+    border-bottom: 4px solid transparent;
+    width: max-content;
+    transition: all .4s ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+    width: max-content;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+.main-btn {
+    transition: all .4s ease-in-out;
+    padding: 10px 27px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.749);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.main-btn:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(205, 199, 199);
+    color: rgb(255, 0, 0);
+}
+
+.nav-sticky {
+    background-color: #ffffff;
+}
+
+.nav-sticky .navbar-brand {
+    color: red;
+}
+
+.nav-sticky .nav-link {
+    color: red;
+}
+
+.nav-sticky .nav-link:hover {
+    border-color: red;
+}
+
+.nav-sticky .main-btn {
+    color: red;
+    border-color: red;
+}
+
+.nav-sticky .main-btn:hover {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 0, 0, .7);
+    background-color: red;
+}
+
+
+/* Banner CSS */
+.banner {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.banner p {
+    font-size: x-large;
+    margin-bottom: 7px;
+}
+
+.download-btn {
+    transition: all .4s ease-in-out;
+    padding: 10px 27px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.749);
+    color: rgb(255, 255, 255);
+    font-weight: 500px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(213, 213, 213);
+    color: rgb(255, 0, 0);
+}
+
+/* About CSS */
+.about img {
+    border: 10px solid rgba(255, 255, 255, 0.832);
+    max-height: 50vh;
+}
+
+.about span {
+    font-weight: bold;
+}
+
+.about a {
+    text-decoration: none;
+    color: rgb(251, 251, 251);
+}
+
+/* Skill CSS */
+.skill span {
+    text-align: center;
+    display: inline-block;
+    width: 180px;
+    background-color: aliceblue;
+    color: red;
+    font-weight: 500;
+    font-size: large;
+    padding: 20px 30px;
+    margin: 5px;
+}
+
+/* Project CSS */
+.card {
+    height: 100%;
+    min-height: 400px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.project-1 {
+    background-image: url(../images/portfolio/Ecommerce-Jewellery-Website.png);
+}
+
+.project-2 {
+    background-image: url(../images/portfolio/Pizza-Landing-Page.png);
+}
+
+.project-3 {
+    background-image: url(../images/portfolio/Christmas-Landing-Page.png);
+}
+
+.project-4 {
+    background-image: url(../images/portfolio/E-Commerce-Website-Using-Bootstap-5.png);
+}
+
+.project-5 {
+    background-image: url(../images/portfolio/Foodies.png);
+}
+
+.project-6 {
+    background-image: url(../images/portfolio/HeadPhones.png);
+}
+
+.project-7 {
+    background-image: url(../images/portfolio/App-Landing-Page.png);
+}
+
+.project-8 {
+    background-image: url(../images/portfolio/Hashtag-Landing-Page.png);
+}
+
+.bg-img {
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-position: top center;
+    transition: 4s ease-in-out;
+}
+
+.bg-img:hover {
+    background-position: bottom center;
+}
+
+/* Service CSS */
+.service h2 {
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.box {
+    width: 450px;
+    background-color: rgb(0, 0, 0);
+    padding: 70px 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: large;
+}
+
+.box p {
+    margin: 0px;
+}
+
+.box span {
+    font-size: smaller;
+}
+
+/* Reviews CSS */
+.background {
+    background: linear-gradient(rgba(0, 0, 0, 0.518), rgba(0, 0, 0, 0.534)), url(../images/testimonial-bg.jpg) center top no-repeat fixed;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.carousel {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.testimonials {
+    background: url("../img/testimonial-bg.jpg") center top no-repeat fixed;
+    background-size: cover;
+    padding: 40px 0 60px 0;
+    text-align: center;
+    position: relative;
+}
+
+.testimonial-img {
+    width: 120px;
+    border: 10px solid rgba(256, 256, 256, .1);
+    margin: 0 auto;
+}
+
+.testimonial-item h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 15px 0 5px 0;
+    color: #AF9483;
+}
+
+.testimonial-item h4 {
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0 0 10px 0;
+}
+
+.testimonial-item p {
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
+.testimonial h2 {
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+/* Contact CSS */
+.contact {
+    font-size: large;
+    font-weight: 500;
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.contact h3 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.contact a {
+    color: #dc3545;
+}
+
+/* .contact p{
+    font-size: x-large;
+    font-weight:500;
+} */
+.msg {
+    height: 15vh;
+}
+
+/* Footer CSS */
+footer .container-fluid {
+    background-color: rgb(45, 45, 45);
+}
+
+footer p {
+    /* padding: 0; */
+    margin-bottom: 5px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+.get-in-touch h4 {
+    margin-bottom: 15px;
+}
