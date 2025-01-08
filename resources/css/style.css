@@ -2,28 +2,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: "Montserrat", sans-serif;
-}
-
-body {
-    background: radial-gradient(95.09% 118.5% at 43.64% 75.17%, rgba(162, 188, 255, 0.216) 45.19%, rgba(118, 139, 252, 0.502) 86.75%);
-    color: rgb(98, 101, 119);
-}
-
-.container-fluid {
-    padding-top: 48px;
-}
-
-.container>h2 {
-    padding: 20px 0;
-    margin-bottom: 40px;
-    font-weight: bold;
-    color: rgb(39, 41, 59);
-    text-align: center;
-    text-transform: uppercase;
-}
-h1,h2,h3,h4,h5{
-    color: rgb(39, 41, 59);
 }
 
 ul {
@@ -35,65 +13,276 @@ li {
     list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: aliceblue;
+}
+
 a {
+    color: aliceblue;
+    transition: .3s;
     text-decoration: none;
 }
 
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-image: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95)), url(../images/bg-image.jpg);
+    color: aliceblue;
+}
+
+/* .container-fluid {
+    padding-top: 60px;
+}
+#about {
+    padding-top: 60px;
+    background-color: aliceblue;
+    color: rgb(44, 44, 44);
+} */
+
+.container>h2 {
+    /* padding: 20px 0; */
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: rgb(39, 41, 59);
+    text-align: center;
+    text-transform: uppercase;
+}
 
 /* Button Styles */
-.main-btn{
+.main-btn {
     border-radius: 50px;
     transition: all .5s ease-in-out;
     padding: 10px 27px;
-    border: 2px solid darkblue;
-    color: black;
+    border: 2px solid aliceblue;
+    color: aliceblue;
     letter-spacing: 2px;
+    box-shadow: rgba(255, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.main-btn:hover{
-    background-color: rgb(13, 110, 253);
-    border-color: rgb(1, 1, 255);
-    color: white;
+
+.main-btn:hover {
+    background-color: aliceblue;
+    color: red;
 }
 
 
 /* Navbar Styles */
-nav{
+nav {
     font-weight: 500;
     letter-spacing: 1px;
-    background-color:rgba(162, 188, 255);
+    background-color: transparent;
+    border-bottom: 2px dotted rgba(255, 255, 255, 0.2);
 }
-.nav-link{
+
+.navbar-brand {
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.navbar-brand:hover {
+    color: aliceblue;
+}
+
+.nav-link {
     margin-right: 10px;
-    border-bottom: 4px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    border-radius: 10px;
     width: max-content;
     transition: all .5s ease-in-out;
+    color: aliceblue;
 }
-.nav-link:hover{
-    border-color:darkblue;
+
+.nav-link:hover {
+    border-color: aliceblue;
 }
+
+.navbar.nav-sticky {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    background-color: aliceblue;
+}
+
+.nav-sticky .navbar-brand {
+    color: red;
+}
+
+.nav-sticky .nav-link {
+    color: red;
+}
+
+.nav-sticky .nav-link:hover {
+    border-color: red;
+}
+
+.nav-sticky .main-btn {
+    color: red;
+    border-color: red;
+}
+
+.nav-sticky .main-btn:hover {
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 0, 0, .7);
+    background-color: red;
+}
+
 
 /* Hero Section Styles */
-#hero {
-
-}
 
 
 /* About Section Styles */
-.info{
+.info {
     line-height: 20px;
 }
-.info div{
+
+.info div {
     margin-top: 40px;
 }
 
+@media(max-width:576px) {
+    body {
+        /* background-color: black; */
+    }
+
+    .hero-text {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .hero-text p {
+        font-size: large;
+        margin-bottom: 10px;
+    }
+
+    .hero-text h1 {
+        font-size: xx-large;
+        margin: 10px 0;
+    }
+
+    .hero-text h2 {
+        font-size: x-large;
+        margin-bottom: 30px;
+    }
+
+    .hero-text a {
+        font-size: x-small;
+        margin-right: 10px;
+    }
+}
+
+@media(min-width:576px) and (max-width:768px) {
+    body {
+        /* background-color: rgb(120, 202, 108); */
+    }
+    .hero-text {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .hero-text p {
+        font-size: large;
+        margin-bottom: 10px;
+    }
+
+    .hero-text h1 {
+        font-size: xx-large;
+        margin: 10px 0;
+    }
+
+    .hero-text h2 {
+        font-size: x-large;
+        margin-bottom: 30px;
+    }
+
+    .hero-text a {
+        font-size: x-small;
+        margin-right: 10px;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px) {
+    body {
+        /* background-color: purple; */
+    }
+    .hero-text {
+        padding: 0;
+    }
+
+    .hero-text p {
+        font-size: large;
+        margin-bottom: 10px;
+    }
+
+    .hero-text h1 {
+        font-size: xx-large;
+        margin: 10px 0;
+    }
+
+    .hero-text h2 {
+        font-size: x-large;
+        margin-bottom: 30px;
+    }
+
+    .hero-text a {
+        font-size: x-small;
+        margin-right: 10px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1200px) {
+    body {
+        /* background-color: blue; */
+    }
+    .hero-text p {
+        font-size: x-large;
+        margin-bottom: 10px;
+    }
+    .hero-text h1 {
+        margin: 10px 0;
+    }
+    .hero-text h2 {
+        margin-bottom: 30px;
+    }
+    .hero-text a {
+        font-size:small;
+        margin-right: 20px;
+    }
+    
+}
+
+@media(min-width:1200px) {
+    body {
+        /* background-color: gray; */
+    }
+    .hero-text p {
+        font-size: x-large;
+        margin-bottom: 10px;
+    }
+    .hero-text h1 {
+        margin: 10px 0;
+    }
+    .hero-text h2 {
+        margin-bottom: 40px;
+    }
+    .hero-text a {
+        margin-right: 20px;
+    }
+}
 
 /* Skill Section Styles */
-#skill{
+#skill {
     text-align: center;
 }
+
 #skill h3 {
     margin-bottom: 40px;
 }
+
 #skill span {
     display: inline-block;
     width: 195px;
@@ -164,8 +353,8 @@ nav{
 
 
 /* Service Section Styles */
-#service .col{
-}
+#service .col {}
+
 .box {
     text-align: center;
     color: aliceblue;
@@ -195,6 +384,7 @@ nav{
     text-align: center;
     padding: 48px 0;
 }
+
 #review h2 {
     padding: 20px 0;
     margin-bottom: 40px;
@@ -203,6 +393,7 @@ nav{
     text-align: center;
     text-transform: uppercase;
 }
+
 .carousel {
     text-align: center;
     max-width: 700px;
@@ -210,7 +401,7 @@ nav{
 }
 
 .testimonial-item {
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 .testimonial-img {
