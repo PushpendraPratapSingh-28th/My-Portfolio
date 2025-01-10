@@ -31,7 +31,7 @@
 </head>
 <body>
     <!-- Navbar Start-->
-    <nav class="navbar navbar-expand-lg position-sticky top-0 z-3">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
           <a class="navbar-brand" href="#">My Portfolio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +40,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0 p-2">
               <li class="nav-item">
-                <a class="nav-link nav-collapse" aria-current="page" href="#">Home</a>
+                <a class="nav-link nav-collapse" href="#home">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-collapse" href="#about">About</a>
@@ -62,52 +62,56 @@
               </li>
             </ul>
             <div class="my-2">
-                <a href="#contact" class="main-btn nav-collapse">HIRE ME</a>
+                <a href="#contact" class="main-btn nav-collapse">Hire Me</a>
             </div>
           </div>
         </div>
     </nav>
     <!-- Navbar End-->
 
-    <!-- Hero Section Start-->
-    <header class="container-fluid pt-3" id="hero">
-        <div class="container">
+    <!-- Banner Section Start-->
+    <header class="container-fluid pt-5" id="home">
+        <div class="container pt-5">
             <div class="row align-items-center">
-                <div class="col-sm-12 col-md-7 col-xl-6 hero-text">
+                <div class="col">
                     <div>
-                        <p>Hello, I'm</p>
-                        <h1>Pushpendra Pratap Singh</h1>
-                        <h2>Full-Stack Web Developer</h2>
-                        <div>
-                            <a href="./Resume.pdf" class="main-btn"><i class="fa-solid fa-download"></i> DOWNLOAD RESUME</a>
-                            <a href="#contact" class="main-btn"><i class="fa-solid fa-user"></i> CONTACT ME</a>
+                        <div class="hero-text">
+                            <span>Hello, I'm</span>
+                            <h1>Pushpendra Pratap Singh</h1>
+                            <h2>Full-Stack Web Developer</h2>
+                        </div>
+                        <div class="hero-btn">
+                            <a class="main-btn" href="./resources/resume/Resume.pdf"><i class="fa-solid fa-download"></i> Download Resume</a>
+                            <a class="main-btn" href="#contact"><i class="fa-solid fa-user"></i> Contact Me</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-5 col-xl-6">
+                <div class="col">
                     <div>
-                        <img src="./resources/images/profile-img.png" class="img-fluid d-none d-md-block" alt="profile-img"/>
+                        <img src="./resources/images/banner-images/profile-img.png" class="d-none d-md-block" alt="profile-img"/>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <!-- Hero Section End-->
+    <!-- Banner Section End-->
 
     <!-- About Section Start -->
-    <section class="container-fluid" id="about">
-        <div class="container">
+    <section class="container-fluid pt-5" id="about">
+        <div class="container pt-5">
             <h2>About Me</h2>
             <div class="row">
                 <div class="col-sm">
                     <div>
-                        <img src="./resources/images/about-img.jpg" class="img-fluid rounded-4 mb-4" alt="about-img"/>
+                        <img src="./resources/images/about-images/about-img.jpg" class="rounded-4 mb-4" alt="about-img"/>
                     </div>
                 </div>
                 <div class="col">
                     <div>
-                        <h3 class="d-none d-md-block">Hi There! I'm Pushpendra Pratap Singh</h3>
-                        <h5>Full-Stack Web Developer</h5>
+                        <div class="about-details">
+                            <h3 class="d-none d-md-block">Hi There! I'm Pushpendra Pratap Singh</h3>
+                            <h5>Full-Stack Web Developer</h5>
+                        </div>
                         <div class="about-text">
                             <p>
                                 I am a web developer with a passion for creating innovative, responsive and user-friendly web applications.
@@ -115,17 +119,24 @@
                                 technologies and trends. I am a quick learner, a team player, and a creative problem solver.
                             </p>
                         </div>
-                        <div class="about-info">
-                            <p>Name &nbsp;&nbsp;&nbsp; : Pushpendra Pratap Singh</p>
-                            <p>Degree &nbsp; : B-Tech</p>
-                            <p>Address &nbsp;: Noida, INDIA</p>
-                            <p>Phone &nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:8800418916">: +91 8800418916</a></p>
-                            <p>Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:pushpendrapratapsingh28th@gmail.com">: pushpendrapratapsingh28th@gmail.com</a></p>
-                            <p>LinkedIn <a href="https://www.linkedin.com/in/pushpendrapratapsingh-28th">: linkedin.com/pushpendrapratapsingh</a></p>
-                            <p>Github &nbsp;&nbsp;&nbsp;<a href="https://github.com/PushpendraPratapSingh-28th">: github.com/PushpendraPratapSingh-28th</a></p>
+                        <div class="about-info row align-items-center">
+                            <div class="col-2 py-1"><p>Name</p></div>
+                            <div class="col-10"><span>: Pushpendra Pratap Singh</span></div>
+                            <div class="col-2 py-1"><p>Degree</p></div>
+                            <div class="col-10"><span>: B-Tech</span></div>
+                            <div class="col-2 py-1"><p>Address</p></div>
+                            <div class="col-10"><span>: Noida, INDIA</span></div>
+                            <div class="col-2 py-1"><p>Phone</p></div>
+                            <div class="col-10"><span><a href="tel:8800418916">: +91 8800418916</a></span></div>
+                            <div class="col-2 py-1"><p>Email</p></div>
+                            <div class="col-10"><span><a href="mailto:pushpendrapratapsingh28th@gmail.com">: pushpendrapratapsingh28th@gmail.com</a></span></div>
+                            <div class="col-2 py-1"><p>LinkedIn</p></div>
+                            <div class="col-10"><span><a href="https://www.linkedin.com/in/pushpendrapratapsingh-28th">: linkedin.com/pushpendrapratapsingh-28th</a></span></div>
+                            <div class="col-2 py-1"><p>Github</p></div>
+                            <div class="col-10"><span><a href="https://github.com/PushpendraPratapSingh-28th">: github.com/PushpendraPratapSingh-28th</a></span></div>
                         </div>
                         <div class="about-btn">
-                            <a class="main-btn" href="./Resume.pdf"><i class="fa-solid fa-download"></i> DOWNLOAD RESUME</a>
+                            <a class="main-btn" href="./resources/resume/Resume.pdf"><i class="fa-solid fa-download"></i> Download Resume</a>
                         </div>
                     </div>
                 </div>
@@ -135,32 +146,32 @@
     <!-- About Section End -->
 
     <!-- Skill Section Start -->
-    <section class="container-fluid" id="skill">
-        <div class="container">
+    <section class="container-fluid pt-5" id="skill">
+        <div class="container pt-5">
             <h2>My Skills</h2>
             <div class="row text-center">
                 <div class="col">
-                    <div class="frontend">
+                    <div>
                         <h3>Front End Skills</h3>
                         <div>
                             <span><i class="fa-brands fa-html5 text-danger"></i> HTML</span>
                             <span><i class="fa-brands fa-css3-alt text-primary"></i> CSS</span>
                             <span><i class="fa-brands fa-js text-warning"></i> JavaScript</span>
-                            <span><img src="./resources/images/jquery.png" alt="jquery"> jQuery</span>
+                            <span><img src="./resources/images/skill-images/jquery.png" alt="jquery"> jQuery</span>
                             <span><i class="fa-brands fa-bootstrap text-primary"></i> Bootstrap</span>
                             <span><i class="fa-brands fa-react text-info"></i> React JS</span>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="backend">
+                    <div>
                         <h3>Back End Skills</h3>
                         <div>
                             <span><i class="fa-brands fa-node text-success"></i> Node JS</span>
-                            <span><img src="./resources/images/express.png" alt="express"> Express JS</span>
-                            <span><img src="./resources/images/mongodb.png" alt="mongodb"> Mongo-DB</span>
-                            <span><img src="./resources/images/postgresql.png" alt="postgresql"> PostgreSQL</span>
-                            <span><img src="./resources/images/mysql.png" alt="mysql"> MySQL</span>
+                            <span><img src="./resources/images/skill-images/express.png" alt="express"> Express JS</span>
+                            <span><img src="./resources/images/skill-images/mongodb.png" alt="mongodb">Mongo-DB</span>
+                            <span><img src="./resources/images/skill-images/postgresql.png" alt="postgresql"> PostgreSQL</span>
+                            <span><img src="./resources/images/skill-images/mysql.png" alt="mysql"> MySQL</span>
                             <span><i class="fa-brands fa-java text-primary"></i> Java EE</span>
                         </div>
                     </div>
@@ -171,8 +182,8 @@
     <!-- Skill Section End -->
 
     <!-- Project Section Start -->
-    <section class="container-fluid" id="project">
-        <div class="container">
+    <section class="container-fluid pt-5" id="project">
+        <div class="container pt-5">
             <h2>My Projects</h2>
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-4">
@@ -221,37 +232,63 @@
     <!-- Project Section End -->
 
     <!-- Service Section Start -->
-    <section class="container-fluid" id="service">
-        <div class="container">
+    <section class="container-fluid pt-5" id="service">
+        <div class="container pt-5">
             <h2>My Services</h2>
             <div class="row">
-                <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                    <div class="service">
-                        <i class="fa-solid fa-laptop fa-3x mb-2"></i>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="card-body text-md-start text-center">
+                        <i class="fa-solid fa-laptop fa-3x mb-4"></i>
                         <h3>Full Stack Web Development</h3>
                         <h6>MERN {Mongo-DB, Express.JS, React.JS, Node.JS}</h6>
                     </div>
+                  </div>
                 </div>
-                <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                    <div class="service">
-                        <i class="fa-solid fa-laptop-code fa-3x mb-2"></i>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="card-body text-md-start text-center">
+                        <i class="fa-solid fa-laptop-code fa-3x mb-4"></i>
                         <h3>Java Backend Development</h3>
                         <h6>Java EE {Servlets, JSP, JDBC}</h6>
                     </div>
+                  </div>
                 </div>
-                <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                    <div class="service">
-                        <i class="fa-solid fa-bezier-curve fa-3x mb-2"></i>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="card-body text-md-start text-center">
+                        <i class="fa-solid fa-bezier-curve fa-3x mb-4"></i>
                         <h3>Creative & Latest Design</h3>
                         <h6>Latest Framework & Technologies</h6>
                     </div>
+                  </div>
                 </div>
-                <div class="col-sm-6 d-flex align-items-center justify-content-center">
-                    <div class="service">
-                        <i class="fa-solid fa-shield fa-3x mb-2"></i>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="card-body text-md-start text-center">
+                        <i class="fa-solid fa-shield fa-3x mb-4"></i>
                         <h3>Safe and Secure Websites</h3>
                         <h6>Code Standardization & Authentication</h6>
                     </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="card-body text-md-start text-center">
+                        <i class="fa-solid fa-bezier-curve fa-3x mb-4"></i>
+                        <h3>Creative & Latest Design</h3>
+                        <h6>Latest Framework & Technologies</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                    <div class="card-body text-md-start text-center">
+                        <i class="fa-solid fa-laptop fa-3x mb-4"></i>
+                        <h3>Full Stack Web Development</h3>
+                        <h6>MERN {Mongo-DB, Express.JS, React.JS, Node.JS}</h6>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -259,18 +296,23 @@
     <!-- Service Section End -->
 
     <!-- Review Section Start -->
-    <section class="container-fluid" id="review">
-        <h2>What Clients Say</h2>
-        <div class="container-fluid p-0">
+    <section class="container-fluid pt-5" id="review">
+        <div class="container-fluid pt-5 px-0">
+            <h2>Review</h2>
             <div class="row">
                 <div class="col">
                     <div>
-                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                            <i class="fa fa-4x fa-quote-left pb-4 "></i>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <i class="fa fa-4x fa-quote-left pb-4"></i>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
                             <div class="carousel-inner">
                               <div class="carousel-item active">
                                 <div class="testimonial-item">
-                                    <img src="./resources/images/testimonial-1.jpg" class="testimonial-img" alt="">
+                                    <img src="./resources/images/review-images/testimonial-1.jpg" class="testimonial-img" alt="">
                                     <h3>Jake Gregory</h3>
                                     <h4>News correspondent</h4>
                                     <p>Curabitur bibendum euismod augue, eu rutrum metus consectetur id. Duis lacus erat, gravida laoreet molestie eget, congue in erat.Duis enim quam, interdum lacus gravida laoreet</p>
@@ -278,7 +320,7 @@
                               </div>
                               <div class="carousel-item">
                                 <div class="testimonial-item">
-                                    <img src="./resources/images/testimonial-2.jpg" class="testimonial-img" alt="">
+                                    <img src="./resources/images/review-images/testimonial-2.jpg" class="testimonial-img" alt="">
                                     <h3>Maddison Hughes</h3>
                                     <h4>Social worker</h4>
                                     <p>Nulla at luctus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.is at, volutpat ultricies ligula consecteturis at, volutpat ultricies ligula consecteturis at, volutpat ultricies ligula consectetur</p>
@@ -286,21 +328,13 @@
                               </div>
                               <div class="carousel-item">
                                 <div class="testimonial-item">
-                                    <img src="./resources/images/testimonial-3.jpg" class="testimonial-img" alt="">
+                                    <img src="./resources/images/review-images/testimonial-3.jpg" class="testimonial-img" alt="">
                                     <h3>Abigail Shaw</h3>
                                     <h4>Greenhouse worker</h4>
                                     <p>Duis elementum consequat feugiat. In hac habitasse platea dictumst. Pellentesque habitant morbi tristique senectus malesuada fames turpis egestas enectus mal fames.</p>
                                 </div>
                               </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -310,24 +344,24 @@
     <!-- Review Section End -->
 
     <!-- Contact Section Start -->
-    <section class="container-fluid" id="contact">
-        <div class="container">
+    <section class="container-fluid py-5" id="contact">
+        <div class="container pt-5">
             <h2>Get In Touch</h2>
             <div class="row">
                 <div class="col">
                     <div>
                         <h3>Lets Work Together</h3>
-                        <div>
+                        <div class="contact-text">
                             <p><i class="fa-solid fa-user"></i> Pushpendra Pratap Singh</p>
                             <p><i class="fa-solid fa-tag"></i> Full Stack Developer [MERN & JAVA]</p>
                             <p><i class="fa-solid fa-location-dot"></i> Noida, INDIA</p>
                             <p><i class="fa-solid fa-envelope"></i> <a href="mailto:pushpendrapratapsingh28th@gmail.com">pushpendrapratapsingh28th@gmail.com</a></p>
                             <p><i class="fa-solid fa-phone"></i> <a href="tel:8800418916">+91 8800418916</a></p>
-                            <div>
-                                <a href="https://www.linkdin.com"><i class="fa-brands fa-linkedin fs-5"></i></a>
-                                <a href="https://www.github.com"><i class="fa-brands fa-github fs-5"></i></a>
-                                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fs-5"></i></a>
-                                <a href="https://www.youtube.com"><i class="fa-brands fa-youtube fs-5"></i></a>
+                            <div class="social-links">
+                                <a href="https://www.linkdin.com"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.github.com"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -338,10 +372,10 @@
                         <form action="" method="post">
                             <div class="row mb-2">
                                 <div class="col">
-                                    <input class="form-control" type="text" name="name" placeholder="Your Name" required />
+                                    <input class="form-control" type="text" name="name" placeholder="Your Name" autocomplete="off" required />
                                 </div>
                                 <div class="col">
-                                    <input class="form-control" type="email" name="email" placeholder="Your Email" required />
+                                    <input class="form-control" type="email" name="email" placeholder="Your Email" autocomplete="off" required />
                                 </div>
                             </div>
                             <div class="row mb-2">
@@ -356,7 +390,7 @@
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <input class="btn btn-primary" type="submit" value="Send Message">
+                                    <input class="main-btn rounded-2" type="submit" value="Send Message">
                                 </div>
                             </div>
                         </form>
@@ -368,57 +402,54 @@
     <!-- Contact Section End -->
 
     <!-- Footer Section Start -->
-    <footer class="container-fluid" id="footer">
+    <footer class="container-fluid pt-5" id="footer">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-sm-3">
+                    <h4>My Portfolio</h4>
                     <div>
-                        <h5>Get In Touch</h5>
-                        <p>Pushpendra Pratap Singh</p>
-                        <p>Address: 123, ABC Road, XYZ City, India</p>
-                        <p>Phone: <a href="tel:8800418916">+91 8800418916</a></p>
-                        <p>Email: <a href="mailto:pushpendrapratapsingh@gmail.com">pushpendrapratapsingh@gmail.com</a></p>
+                        <p>
+                            A Web Developer with a passion for creating Responsive Website.
+                            I always make websites that have unique designs and also have a good performance rate.
+                        </p> 
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-2">
                     <div>
-                        <h5>About Me</h5>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#skill">Skill</a></li>
-                            <li><a href="#service">Service</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col">
-                    <div>
-                        <h5>Services</h5>
-                        <ul>
-                            <li><a href="">Web Development</a></li>
-                            <li><a href="">Front-End Development</a></li>
-                            <li><a href="">Back-End Development</a></li>
-                            <li><a href="">Full-Stack Development</a></li>
-                            <li><a href="">Back-End Java Development</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col">
-                    <div>
-                        <h5>Contact Me</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti, voluptatem quod voluptate consequatur nemo!</p>
+                        <h4>Quick Links</h4>
                         <div>
-                            <form action="" method="post">
-                                <div class="row">
-                                    <div class="col-8">
-                                        <input class="form-control" type="email" name="email" placeholder="Email" required />
-                                    </div>
-                                    <div class="col">
-                                        <button class="btn btn-primary" type="submit">Submit</button>
-                                    </div>
-                                </div>
-                            </form>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#skill">Skill</a></li>
+                                <li><a href="#service">Service</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div>
+                        <h4>Services</h4>
+                        <div>
+                            <ul>
+                                <li><a href="#service">Web Development</a></li>
+                                <li><a href="#service">Front-End Development</a></li>
+                                <li><a href="#service">Back-End Development</a></li>
+                                <li><a href="#service">Full-Stack Development</a></li>
+                                <li><a href="#service">Back-End Java Development</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <h4>Get In Touch</h4>
+                        <div class="get-in-touch">
+                            <p><i class="fa-solid fa-user"></i> Pushpendra Pratap Singh</p>
+                            <p><i class="fa-solid fa-location-dot"></i> Noida, INDIA</p></p>
+                            <p><i class="fa-solid fa-envelope"></i> <a href="mailto:pushpendrapratapsingh28th@gmail.com"> pushpendrapratapsingh28th@gmail.com</a></p>
+                            <p><i class="fa-solid fa-phone"></i> <a href="tel:8800418916"> +91 8800418916</a></p>  
                         </div>
                     </div>
                 </div>
@@ -427,15 +458,13 @@
             <div class="row text-center">
                 <div class="col">
                     <div>
-                        <div>
-                            <a href="https://www.linkdin.com"><i class="fa-brands fa-linkedin fs-5"></i></a>
-                            <a href="https://www.github.com"><i class="fa-brands fa-github fs-5"></i></a>
-                            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram fs-5"></i></a>
-                            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube fs-5"></i></a>
+                        <div class="social-links">
+                            <a href="https://www.linkdin.com"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.github.com"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
                         </div>
-                        <div>
-                            <p>Copyright &copy; <span id="year"></span> Pushpendra Pratap Singh. All rights reserved &reg;.</p>
-                        </div>  
+                        <p>Copyright &copy; <span id="year"></span> Pushpendra Pratap Singh. All rights reserved <sup>&reg;</sup>.</p>  
                     </div>
                 </div>
             </div>
@@ -444,7 +473,7 @@
     <!-- Footer Section End -->
 
     <!-- Back to Top -->
-    <span id="top-button" class="text-danger" href=""><i class="fa-solid fa-circle-up fa-2x"></i></span>
+    <span id="top-button" class="text-light" href=""><i class="fa-solid fa-circle-up fa-2x"></i></span>
 
     <!-- JavaScript Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/all.min.js" integrity="sha512-1JkMy1LR9bTo3psH+H4SV5bO2dFylgOy+UJhMus1zF4VEFuZVu5lsi4I6iIndE4N9p01z1554ZDcvMSjMaqCBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

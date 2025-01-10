@@ -1,0 +1,229 @@
+
+@media(max-width:576px) {
+    body {
+        /* background-color: black; */
+    }
+
+    .hero-text {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .hero-text p {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .hero-text h1 {
+        font-size: 26px;
+        margin: 10px 0;
+    }
+
+    .hero-text h2 {
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+
+    .hero-text a {
+        font-size: xx-small;
+        margin-right: 5px;
+    }
+
+    #about h5 {
+        font-size: x-large;
+        margin-bottom: 10px;
+    }
+
+    .about-text p {
+        text-align: justify;
+    }
+
+    .about-info {
+        margin: 40px 0;
+        font-size: 13px;
+    }
+
+    .about-btn {
+        font-size: small;
+    }
+
+    .frontend h3,
+    .backend h3 {
+        margin: 20px;
+    }
+
+    .frontend span,
+    .backend span {
+        display: inline-block;
+        width: 170px;
+        padding: 20px;
+        background-color: aliceblue;
+        margin: 5px 0;
+        font-size: medium;
+        color: red;
+    }
+
+    #skill span>img {
+        height: 18px;
+    }
+
+    .service {
+        background-color: rgb(0, 0, 0);
+        width: 480px;
+        padding: 50px 0;
+        text-align: center;
+        margin: 5px 0;
+        font-size: xx-small;
+    }
+
+    .service h3 {
+        font-size: medium;
+    }
+
+    .service h6 {
+        /* margin-top: -5px; */
+        font-size: small;
+    }
+}
+
+@media(min-width:576px) and (max-width:768px) {
+    body {
+        /* background-color: rgb(120, 202, 108); */
+    }
+
+    .hero-text {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .hero-text p {
+        font-size: large;
+        margin-bottom: 10px;
+    }
+
+    .hero-text h1 {
+        font-size: xx-large;
+        margin: 10px 0;
+    }
+
+    .hero-text h2 {
+        font-size: x-large;
+        margin-bottom: 30px;
+    }
+
+    .hero-text a {
+        font-size: x-small;
+        margin-right: 10px;
+    }
+}
+
+@media(min-width:768px) and (max-width:992px) {
+    body {
+        /* background-color: purple; */
+    }
+
+    .hero-text {
+        padding: 0;
+    }
+
+    .hero-text p {
+        font-size: large;
+        margin-bottom: 10px;
+    }
+
+    .hero-text h1 {
+        font-size: xx-large;
+        margin: 10px 0;
+    }
+
+    .hero-text h2 {
+        font-size: x-large;
+        margin-bottom: 30px;
+    }
+
+    .hero-text a {
+        font-size: x-small;
+        margin-right: 10px;
+    }
+}
+
+@media(min-width:992px) and (max-width:1200px) {
+    body {
+        /* background-color: blue; */
+    }
+
+    .hero-text p {
+        font-size: x-large;
+        margin-bottom: 10px;
+    }
+
+    .hero-text h1 {
+        margin: 10px 0;
+    }
+
+    .hero-text h2 {
+        margin-bottom: 30px;
+    }
+
+    .hero-text a {
+        font-size: small;
+        margin-right: 20px;
+    }
+
+}
+
+@media(min-width:1200px) {
+    body {
+        /* background-color: gray; */
+    }
+
+    .hero-text p {
+        font-size: x-large;
+        margin-bottom: 10px;
+    }
+
+    .hero-text h1 {
+        margin: 10px 0;
+    }
+
+    .hero-text h2 {
+        margin-bottom: 40px;
+    }
+
+    .hero-text a {
+        margin-right: 20px;
+    }
+
+    .frontend h3,
+    .backend h3 {
+        margin: 20px;
+    }
+
+    .frontend span,
+    .backend span {
+        display: inline-block;
+        width: 180px;
+        padding: 20px;
+        background-color: aliceblue;
+        margin: 5px;
+        font-size: large;
+        color: red;
+    }
+
+    #skill span>img {
+        height: 18px;
+    }
+
+    .service {
+        display: inline-block;
+        width: 500px;
+        background-color: cadetblue;
+        padding: 50px;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .service h6 {
+        margin-top: -5px;
+    }
+}
