@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MedEase</title>
+    <link rel="shortcut icon" href="resources/images/Favicon Icon.png" type="image/x-icon">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Pushpendra Pratap Singh"/>
+    <meta name="description" content="This is a Responsive Medical HealthCare Website"/>
+    <meta name="keywords" content="Best Surgical Care, Best Surgical Assistance, Best Surgery in NCR"/>
+
+    <!-- JQuery & Bootstrap-->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+  <!-- FontAwesome -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- AOS CSS & Script -->
+
+  <script src="resources/aos/aos.js"></script>
+  <link rel="stylesheet" href="resources/aos/aos.css"/>
+
+  <!-- Custom Css -->
+
+  <link rel="stylesheet" href="resources/css/style.css"/>
+
+<style>
+  #d1{
+    background-image: url("resources/images/Background\ Frame.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  #d2{
+    background-image:url("resources/images/back1.png");
+  }
+  #d3{
+    background-image: url("resources/images/back2.png");
+  }
+  #d2,#d3{
+    background-size: cover;
+    background-position: center;
+  }
+</style>
+
+</head>
+<body class="bg-body-tertiary text-emphasis-light">
+    <header class="sticky-top">
+        <nav class="navbar  navbar-expand-md bg-body-tertiary border-bottom">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="resources/images/Logo.png" alt="logo" height="30"/>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Conditions
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action 1</a></li>
+                          <li><a class="dropdown-item" href="#">Action 2</a></li>
+                          <li><a class="dropdown-item" href="#">Action 3</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Treatments
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action 1</a></li>
+                          <li><a class="dropdown-item" href="#">Action 2</a></li>
+                          <li><a class="dropdown-item" href="#">Action 3</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                      </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" autocomplete="on" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <a href="tel:9625529133"><img src="resources/images/Social button.png" height="40" class="ms-lg-2 mt-2 mt-lg-0" alt="image"/></a>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section >
+        <div class="container py-3" id="d1">
+            <div class="row align-items-center">
+                <div class="col-sm-6 py-3">
+                  <div data-aos="fade-right" data-aos-duration="1000">
+                <div id="color"><span class="rainbow">NAVIGATING SURGERY, ELEVATING CARE</span></div>
+                <h1>Expert Surgery Assistance Tailored to Your Needs</h1>
+                    <p class="my-5">With a team of highly skilled surgeons, nurses, and support staff, we are
+                      committed to delivering exceptional care and personalized attention to each
+                      of our patients. Our mission is to empower you on your path to recovery by
+                      offering guidance, support, and expert assistance from pre-operation
+                      preparation to post-operative care.</p>
+                    <div class="row fw-bold text-center mb-5">
+                      <div class="col border-end text-start">
+                        <span class="num fs-1" data-val="50">0</span><span class="fs-1">+</span>
+                        <p>Diseases</p>
+                      </div>
+                      <div class="col border-end">
+                        <span class="num fs-1" data-val="45">0</span><span class="fs-1">+</span>
+                        <p>Cities</p>
+                      </div>
+                      <div class="col">
+                        <span class="num fs-1" data-val="2500">0</span><span class="fs-1">+</span>
+                        <p>Happy Patients</p>
+                      </div>
+                    </div>
+                    <span class="rounded bg-body-secondary p-3 ">
+                      <a href="tel:9625529133" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-solid fa-phone pe-1"></i> Call Us : +91 9625529133</a>
+                    </span>
+                  </div>
+                </div>
+                <div class="col-sm-4 offset-lg-2 py-2">
+                  <div data-aos="fade-left" data-aos-duration="1000">
+                    <div class="bg-body-secondary rounded-4 p-4 text-center">
+                      <h4 class="pb-2">Book free Consultation</h4>
+                      <img src="resources/images/Form Image.png" class="img-fluid" alt="" />
+                      <form name="google-sheet">
+                        <div class="m-2">
+                          <input type="name" class="form-control" name="Name" placeholder="Patient Name" autocomplete="off" required />
+                        </div>
+                        <div class="m-2">
+                          <input type="number" class="form-control" name="Phone" placeholder="Mobile Number" autocomplete="off" required />
+                        </div>
+                        <div class="m-2">
+                          <select class="form-select" name="City" aria-label="Default select example">
+                            <option selected>Select City</option>
+                            <option value="Noida">Noida</option>
+                            <option value="Greater Noida">Greater Noida</option>
+                            <option value="New Delhi">New Delhi</option>
+                            <option value="Gurugram">Gurugram</option>
+                          </select>
+                        </div>
+                          <div class="col text-start ms-2">
+                          <a class=" btn bg-white btn-sm px-1 me-1" href="#" role="button">Noida <i class="fa-solid fa-arrow-trend-up"></i></a>
+                          <a class=" btn bg-white btn-sm px-1 me-1" href="#" role="button">Greater Noida <i class="fa-solid fa-arrow-trend-up"></i></a>
+                          <a class=" btn bg-white btn-sm px-1 m-0" href="#" role="button">New Delhi <i class="fa-solid fa-arrow-trend-up"></i></a>
+                        </div>
+                        <div class="m-2">
+                          <select class="form-select" name="Disease" aria-label="Default select example">
+                            <option selected>Select Disease</option>
+                            <option value="Piles">Piles</option>
+                            <option value="Alcer">Alcer</option>
+                            <option value="Lump">Lump</option>
+                            <option value="Prostate">Prostate</option>
+                          </select>
+                        </div>
+                        <div class="d-grid m-2">
+                          <button class="btn btn-primary" type="submit">Book Now</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="py-3">
+      <div class="container p-3 bg-white rounded-4 text-center">
+        <div class="row m-0 align-items-center text-start ">
+          <div class="col-sm">
+            <div id="colorr"><span class="rainbow">CONDITIONS</span></div>
+            <h2>We provide solutions for following conditions</h2>
+          </div>
+            <div class="col-sm">
+            <p>Choose us for superior surgical assistance and compassionate care that puts your needs first. Experience the difference with our dedicated team of experts.</p>
+          </div>
+        </div>
+      <div class="row m-0">
+        <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+              <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+            </div>
+            <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+              <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+            </div>
+            <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+              <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+            </div>
+            <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+              <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+            </div>
+            <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+              <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+            </div>
+            <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+              <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+            </div>
+            </div>
+      <div class="row m-0">
+        <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+          <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+        </div>
+        <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+          <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+        </div>
+        <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+          <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+        </div>
+        <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+          <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+        </div>
+        <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+          <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+        </div>
+        <div class="col bg-body-secondary m-3 py-4 px-2 xyz text-center rounded">
+          <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-regular fa-circle"></i> Button CTA</a>
+        </div>
+          </div>
+        </div>
+    </section>
+    <section class="py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="color"><span class="rainbow">MEET OUR TOP SURGEONS</span></div>
+            <h2>Experience Excellence in Surgical Care with our Experts</h2>
+          </div>
+        </div>
+        <div class="row text-center my-3 " id="dishes" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="col-sm p-2 rounded-4">
+            <div class="c-dishes-card">
+                <img src="resources/images/review2.jpg" alt="">
+                <h6>Dr. Emily Chen</h6>
+                <p class="mb-2"><small>Adult CTVS (Cardiothoracic and Vascular Surgery)</small></p>
+                <span>35 years experience</span><br/>
+                <p class="text-success mt-2"><i class="fa-regular fa-thumbs-up"></i> 96% Recommended</p>
+            </div>
+          </div>
+          <div class="col-sm p-2 rounded-4">
+            <div class="c-dishes-card">
+                <img src="resources/images/review5.jpg" alt="">
+                <h6>Dr. Emily Chen</h6>
+                <p class="mb-2"><small>Adult CTVS (Cardiothoracic and Vascular Surgery)</small></p>
+                <span>35 years experience</span><br/>
+                <p class="text-success mt-2"><i class="fa-regular fa-thumbs-up"></i> 96% Recommended</p>
+            </div>
+          </div>
+          <div class="col-sm p-2 rounded-4">
+            <div class="c-dishes-card">
+                <img src="resources/images/review6.png" alt="">
+                <h6>Dr. Emily Chen</h6>
+                <p class="mb-2"><small>Adult CTVS (Cardiothoracic and Vascular Surgery)</small></p>
+                <span>35 years experience</span><br/>
+                <p class="text-success mt-2"><i class="fa-regular fa-thumbs-up"></i> 96% Recommended</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="d2" class="py-3">
+      <div class="container">
+        <div class="row pb-5">
+          <div class="col">
+            <div id="color"><span class="rainbow">OUR SUCCESS STORIES</span></div>
+            <h1>What our patients say about MedEase Healthcare</h1>
+          </div>
+        </div>
+        <div class="row  align-items-center bg-white rounded-4 p-5">
+          <div class="col-sm text-start pb-5">
+            <div>
+              <h4>Rajesh Sharma <br/><small>(Laser Piles Surgery)</small></h4>
+              <p class="pb-5 pt-3">I got connected with MedEase and they did everything on my behalf. Even when I got admitted to the hospital, they were there for me like my brother, and I did not need anybody else do things for me. It was a very seamless process which MedEase have done for me.</p>
+                <span class="rounded bg-white p-3 border">
+                  <a href="" class="text-decoration-none text-primary-emphasis fw-bold"><i class="fa-brands fa-youtube text-danger"></i> Watch on Youtube</a>
+                </span>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div data-aos="fade-left" data-aos-duration="1000">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Vl3d3UIt-6U?si=zPBrF9_XHYimYDoF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="d-block w-100 border rounded" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container py-3 pb-5">
+        <div class="row">
+          <div class="col">
+            <div id="color"><span class="rainbow">OUR TESTIMONIALS</span></div>
+            <h1>What our patients say about MedEase Healthcare</h1>
+          </div>
+        </div>
+        <div class="row text-center" id="dishes" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="col-sm rounded p-4 text-center">
+            <div class="card">
+              <div class="bg-body-secondary rounded p-5 text-start">
+                <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <hr/>
+                <p><small>Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make a type specimen book. &#128519;</small></p>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-2 pe-0 ">
+                  <img src="resources/images/review5.jpg" style="height: 60px;" alt="">
+                </div>
+                <div class="col-10 text-start ps-4">
+                <h6 class="m-0 p-0">John Carter</h6>
+                <p class="m-0"><small>Marketing Lead at Google</small></p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm rounded p-4 ms-2 text-center">
+            <div class="card">
+              <div class="bg-body-secondary rounded p-5 text-start">
+                <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                <hr/>
+                <p><small>Lorem Ipsum has been the industry's standard from dummy text ever since the unknown printer to galley of type and make a type specimen book. &#128519;</small></p>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-2 pe-0">
+                  <img src="resources/images/review5.jpg" style="height: 60px;" alt="">
+                </div>
+                <div class="col-10 text-start ps-4">
+                <h6 class="m-0 p-0">John Carter</h6>
+                <p class="m-0"><small>Marketing Lead at Google</small></p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="d3" class="py-5 ">
+      <div class="container text-center">
+        <div class="row text-start align-items-center">
+          <div class="col-sm-5">
+            <div id="colorr"><span class="rainbow">WHY CHOOSE MEDEASE?</span></div>
+            <h2>Experience Exceptional Surgical Assistance</h2>
+          </div>
+            <div class="col-sm-5 offset-lg-2 ">
+            <p>Choose us for superior surgical assistance and compassionate care that puts your needs first. Experience the difference with our dedicated team of experts.</p>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col-sm pt-4 xyz text-start">
+              <div>
+                <img src="resources/images/1.png"  height="50px" alt="">
+                <span>Expertise</span>
+                <p>Expertise: Our team comprises highly skilled surgeons who are leaders in their respective fields. With years of experience and advanced training, they bring unparalleled expertise to every surgical procedure.</p>
+              </div>
+            </div>
+            <div class="col-sm pt-4 xyz text-start">
+              <div>
+                <img src="resources/images/2.png" height="50px" alt="">
+                <span>Comprehensive Care</span>
+                <p>From pre-operative consultations to post-operative follow-ups, we provide comprehensive care at every step of your surgical journey. Our dedicated team ensures that you receive personalized attention and support throughout the process.</p>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-sm pt-4 xyz text-start">
+                <div>
+                  <img src="resources/images/3.png"  height="50px" alt="">
+                  <span>Patient Centered Approach</span>
+                  <p>At our center, patients always come first. We prioritize your comfort, safety, and well-being throughout your treatment. Our compassionate team is committed to addressing your concerns and providing personalized solutions.</p>
+                </div>
+              </div>
+              <div class="col-sm pt-4 xyz text-start">
+                <div>
+                  <img src="resources/images/4.png" height="50px" alt="">
+                  <span>Positive Outcomes</span>
+                  <p>We strive for excellence in every aspect of our practice, with a focus on achieving positive outcomes for our patients. Whether you require routine surgery or a complex procedure, you can trust us to deliver exceptional results.</p>
+                </div>
+              </div>
+          </div>
+          </div>
+    </section>
+    <footer class="bg-dark text-white py-5">
+      <div class="container py-3 pb-5">
+        <div class="row align-items-center bg-white text-dark rounded-4 me-0" data-aos="zoom-in" data-aos-duration="1000">
+          <div class="col-sm-7">
+        <div class="row text-center" id="dishes" >
+          <div class="col-sm rounded p-5 text-center">
+            <div class="card">
+              <div class="rounded p-4 text-start">
+                <div id="colorr"><span class="rainbow">GET IN TOUCH WITH US</span></div>
+            <h2>Book a free consultation today!</h2>
+            <p>Tell us about your problems and we'll figure out the best treatment option for you.</p>
+              </div>
+              <div class="row align-items-center py-4">
+                <div class="col-sm">
+                  <button class="btn btn-primary my-2 px-4 c-get-in-touch fw-bold" data-bs-toggle="modal" data-bs-target="#myModal"><i class="fa-regular fa-calendar-check"></i> Book Consultation</button>
+              </div>
+              <div class="col-sm">
+                <a href="tel:9625529133" class="btn btn-primary my-2 c-get-in-touch  fw-bold"><i class="fa-solid fa-phone"></i> Call Us:+919625529133</a>
+            </div>
+            </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          <div class="col-sm-4 offset-lg-1 pe-0">
+            <div>
+              <img src="resources/images/divimage.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+        </div>
+      <div class="container py-5 ">
+        <div class=" row pb-3 border-bottom">
+        <div class="col text-start">
+          <a class="navbar-brand" href="#">
+            <img src="resources/images/Logo.png" alt="logo" height="30"/>
+          </a>
+        </div>
+        <div class="col text-end">
+              <a class="text-light me-2" href="https://www.facebook.com">
+              <i class="fab fa-facebook fs-3"></i></a>
+
+              <a class="text-light mx-2" href="https://www.instagram.com">
+              <i class="fab fa-instagram fs-3"></i></a>
+
+              <a class="text-light mx-2" href="https://www.twitter.com">
+              <i class="fab fa-twitter-square fs-3"></i></a>
+           <a class="text-light " href="https://www.youtube.com">
+              <i class="fa-brands fa-youtube fs-3"></i></a>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div class="col-sm">
+          <div>
+            <p>Vianam Healthtech Private Limited, Third Floor Building B, The Presidency, 46/4, Sector 14, Mehrauli Gurgaon Road, Gurgaon, Haryana 122001</p>
+          </div>
+          <div class="py-3">
+            <a href="mailto:care@medeasehealth.com" class="text-decoration-none text-light fw-bold"><i class="fa-regular fa-envelope"></i> care@medeasehealth.com</a>
+          </div>
+          <div class="py-3">
+            <a href="tel:987654321" class="text-decoration-none text-light fw-bold"><i class="fa-solid fa-phone"></i> +91 987654321</a>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div>
+            <h4><big>MedEase</big></h4>
+            <dl>
+              <dt><a href="" class="text-decoration-none text-white">About Us</a></dt>
+              <dt><a href="" class="text-decoration-none text-white">Contact Us</a></dt>
+              <dt><a href="" class="text-decoration-none text-white">FAQs</a></dt>
+              <dt><a href="" class="text-decoration-none text-white">Medical Reviews</a></dt>
+            </dl>
+      </div>
+      </div>
+      <div class="col-sm">
+        <div>
+          <h4><big>Policies</big></h4>
+          <dl>
+            <dt><a href="" class="text-decoration-none text-white">Privacy Policy</a></dt>
+            <dt><a href="" class="text-decoration-none text-white">Refund Policy</a></dt>
+            <dt><a href="" class="text-decoration-none text-white">Terms & Conditions</a></dt>
+          </dl>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div>
+          <h4><big>For Patients</big></h4>
+          <dl>
+            <dt><a href="" class="text-decoration-none text-white">Treatmenet 12345</a></dt>
+            <dt><a href="" class="text-decoration-none text-white">Treatmenet 23456</a></dt>
+            <dt><a href="" class="text-decoration-none text-white">Treatmenet 34567</a></dt>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="text-center bg-white text-secondary p-2">
+  <p class="m-0">&copy; 2024 MedEase Healthcare, Pvt Ltd. - All Rights Reserved<sup>&reg;</sup></p>
+</div>
+  <label id="top-button"><i class="fa-solid fa-circle-up fa-2x"></i></label>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"> Please Fill Up This Form </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form name="google-sheet">
+            <input type="text" class="form-control my-2" pattern="[a-zA-Z ]+" placeholder="Your Name"  autocomplete="off" name="Name"
+              maxlength="50" required />
+            <input type="tel" class="form-control my-2" pattern="[0-9]+" placeholder="Your Phone" autocomplete="off" name="Phone"
+              maxlength="10" minlength="10" required />
+            <button class="btn btn-primary  my-2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+<!-- Custom JS -->
+
+<script src="resources/js/style.js"></script>
+
+
+<script>
+
+  // AOS
+
+  AOS.init();
+
+  // Top-Button
+
+  $("#top-button").click(function () {
+        $("html, body").animate({scrollTop: 0}, 1000);
+    });
+  
+  // Script for Google Sheet
+
+    var scriptURL = "https://script.google.com/macros/s/AKfycbz9YM87F24dAqEbJU-9-eLeiY46rhmiQ_rbfV3uBZj7dFw6Xz6fYSTqlSm5KnKIeEA5/exec";
+    var form = document.forms['google-sheet'];
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+      .catch(error => console.error('Error!', error.message))
+    });
+
+</script>
+
+  <!-- Number Roll -->
+
+<script>
+var valueDisplays = document.querySelectorAll(".num");
+var interval = 5000;
+valueDisplays.forEach((valueDisplay) => {
+var startValue = 0;
+var endValue = parseInt(valueDisplay.getAttribute("data-val"));
+var duration = Math.floor(interval / endValue);
+var counter = setInterval(function () {
+  startValue += 1;
+  valueDisplay.textContent = startValue;
+  if (startValue == endValue) {
+    clearInterval(counter);
+  }
+}, duration);
+});
+
+</script>
+
+</html>

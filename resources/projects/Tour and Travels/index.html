@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Angelic Destinations</title>
+    <link rel="shortcut icon" href="./resources/images/logo1.png" type="image/x-icon">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Pushpendra Pratap Singh Rathore"/>
+    <meta name="description" content="This Is A Responsive Tour & Travel Website"/>
+    <meta name="keywords" content="Best Web Monster, Best Creative Designer, Best Web Developer"/>
+
+    <!-- JQuery & Bootstrap-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS CSS & SCRIPT -->
+    
+    <script src="./resources/aos-master/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="./resources/aos-master/dist/aos.css"/>
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="./resources/style.css"/>
+
+</head>
+<body class="bg-info-subtle">
+    <nav class="navbar sticky-top navbar-expand-md bg-dark bg-gradient">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">
+                <img src="./resources/images/logo1.png" alt="Logo" height="35" class="d-inline-block align-text-top">
+                <strong id="s1"><span>Angelic</span> Destinations</strong>
+              </a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="text-white"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec1">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec2">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec3">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec4">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec5">Review</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec6">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button  class="btn btn-outline-warning text-white mx-2" data-bs-toggle="modal" data-bs-target="#MyModal"><i class="fa-solid fa-user"></i></button>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" autocomplete="on">
+              <button class="btn btn-outline-warning text-white" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <header>
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14" aria-label="Slide 15"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="15" aria-label="Slide 16"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <video src="./resources/images/v1.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v2.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v3.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v4.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v5.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v6.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v7.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v8.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v9.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v10.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v11.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v12.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v13.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v14.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v15.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video src="./resources/images/v16.mp4" autoplay loop muted class="d-block w-100"></video>
+            <div class="carousel-caption text-warning ">
+              <h6>ADVENTURE IS WORTHWHILE</h6>
+        <p>Discover New Places With Us,Adventure and Destiny Awaits</p>
+        <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#MyModal">Discover More</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </header>
+      <section class="container text-center pt-5" id="sec1">
+        <div class="fs-1 my-5 pt-3 ">
+          <span class="bg-warning px-2 text-white"><b>B</b></span>
+          <span class="bg-warning px-2 text-white"><b>O</b></span>
+          <span class="bg-warning px-2 text-white"><b>O</b></span>
+          <span class="bg-warning px-2 text-white"><b>K</b></span>
+          <span>&nbsp;</span>
+          <span class="bg-warning px-2 text-white"><b>N</b></span>
+          <span class="bg-warning px-2 text-white"><b>O</b></span>
+          <span class="bg-warning px-2 text-white"><b>W</b></span>
+        </div>
+        <div class="row bg-info-subtle">
+          <div class="col-sm text-end">
+            <div>
+              <img src="./resources/images/3815747_10476.jpg" class="img-fluid" height="100" alt="vacation">
+            </div>
+          </div>
+          <div class="col-sm text-start ">
+            <div class="bg-light-subtle p-3">
+            <form name="google-sheet">
+              <div class="mb-4">
+                <label for="exampleInputEmail1" class="form-label">Where To</label>
+                <input type="name" class="form-control" name="Where To">
+              </div>
+              <div class="mb-4">
+                <label for="exampleInputPassword1" class="form-label">How Many</label>
+                <input type="number" class="form-control" name="How Many">
+              </div>
+              <div class="mb-4">
+                <label for="exampleInputPassword1" class="form-label">Arrivals</label>
+                <input type="date" class="form-control" name="Arrivals">
+              </div>
+              <div class="mb-4">
+                <label for="exampleInputPassword1" class="form-label">Leaving</label>
+                <input type="date" class="form-control" name="Leaving">
+              </div>
+              <div class="mb-4 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-warning text-white">Book Now</button>
+            </form>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="container bg-info-subtle text-center pt-5" id="sec2">
+        <div>
+          <div class="fs-1 my-5 pt-3 ">
+            <span class="bg-warning px-2 text-white"><b>P</b></span>
+            <span class="bg-warning px-2 text-white"><b>A</b></span>
+            <span class="bg-warning px-2 text-white"><b>C</b></span>
+            <span class="bg-warning px-2 text-white"><b>K</b></span>
+            <span class="bg-warning px-2 text-white"><b>A</b></span>
+            <span class="bg-warning px-2 text-white"><b>G</b></span>
+            <span class="bg-warning px-2 text-white"><b>E</b></span>
+            <span class="bg-warning px-2 text-white"><b>S</b></span>
+          </div>
+        </div>
+        <div class="row text-start">
+         <div class="col-sm my-2">
+          <div class="border rounded-top bg-light-subtle">
+          <img src="./resources/images/taj-mahal-palace-hotel-g9bc9705c5_640.jpg" class="img-fluid rounded-top">
+          <div class="p-3">
+          <h4><span><i class="fas fa-map-marker-alt text-warning"></i></span> Mumbai</h4>
+          <small>Lorem ipsum dolor sit amet consectetur.</small><br/>
+          <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span><br/>
+          <span><big>$90.00</big></span><span>&nbsp;&nbsp;<strike>$120.00</strike></span><br/>
+          <button class="btn btn-warning text-white mt-3" data-bs-toggle="modal" data-bs-target="#MyModal">Book Now</button>
+        </div>
+          </div>
+         </div>
+         <div class="col-sm my-2">
+          <div class="border rounded-top bg-light-subtle">
+          <img src="./resources/images/beach-g1d3f415c1_640.jpg" class="img-fluid rounded-top">
+          <div class="p-3">
+            <h4><span><i class="fas fa-map-marker-alt text-warning"></i></span> Mumbai</h4>
+            <small>Lorem ipsum dolor sit amet consectetur.</small><br/>
+            <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span><br/>
+            <span><big>$90.00</big></span><span>&nbsp;&nbsp;<strike>$120.00</strike></span><br/>
+            <button class="btn btn-warning text-white mt-3" data-bs-toggle="modal" data-bs-target="#MyModal">Book Now</button>
+          </div>
+          </div>
+         </div>
+         <div class="col-sm my-2">
+          <div class="border rounded-top bg-light-subtle">
+          <img src="./resources/images/sydney-opera-gb86c6b499_640.jpg" class="img-fluid rounded-top">
+          <div class="p-3">
+            <h4><span><i class="fas fa-map-marker-alt text-warning"></i></span> Mumbai</h4>
+            <small>Lorem ipsum dolor sit amet consectetur.</small><br/>
+            <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span><br/>
+            <span><big>$90.00</big></span><span>&nbsp;&nbsp;<strike>$120.00</strike></span><br/>
+            <button class="btn btn-warning text-white mt-3" data-bs-toggle="modal" data-bs-target="#MyModal">Book Now</button>
+          </div>
+          </div>
+         </div>
+         </div>
+         <div class="row text-start ">
+         <div class="col-sm my-2 ">
+          <div class="border rounded-top bg-light-subtle">
+          <img src="./resources/images/eiffel-tower-g8caf60080_640.jpg" class="img-fluid rounded-top">
+          <div class="p-3">
+            <h4><span><i class="fas fa-map-marker-alt text-warning"></i></span> Mumbai</h4>
+            <small>Lorem ipsum dolor sit amet consectetur.</small><br/>
+            <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span><br/>
+            <span><big>$90.00</big></span><span>&nbsp;&nbsp;<strike>$120.00</strike></span><br/>
+            <button class="btn btn-warning text-white mt-3" data-bs-toggle="modal" data-bs-target="#MyModal">Book Now</button>
+          </div>
+          </div>
+         </div>
+         <div class="col-sm my-2">
+          <div class="border rounded-top bg-light-subtle">
+          <img src="./resources/images/tokyo-gc1101f2a4_640.jpg" class="img-fluid rounded-top">
+          <div class="p-3">
+            <h4><span><i class="fas fa-map-marker-alt text-warning"></i></span> Mumbai</h4>
+            <small>Lorem ipsum dolor sit amet consectetur.</small><br/>
+            <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span><br/>
+            <span><big>$90.00</big></span><span>&nbsp;&nbsp;<strike>$120.00</strike></span><br/>
+            <button class="btn btn-warning text-white mt-3" data-bs-toggle="modal" data-bs-target="#MyModal">Book Now</button>
+          </div>
+          </div>
+         </div>
+         <div class="col-sm my-2">
+          <div class="border rounded-top bg-light-subtle">
+          <img src="./resources/images/pyramids-gf90a9708b_640.jpg" class="img-fluid rounded-top">
+          <div class="p-3">
+            <h4><span><i class="fas fa-map-marker-alt text-warning"></i></span> Mumbai</h4>
+            <small>Lorem ipsum dolor sit amet consectetur.</small><br/>
+            <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span><br/>
+            <span><big>$90.00</big></span><span>&nbsp;&nbsp;<strike>$120.00</strike></span><br/>
+            <button class="btn btn-warning text-white mt-3" data-bs-toggle="modal" data-bs-target="#MyModal">Book Now</button>
+          </div>
+          </div>
+         </div>
+        </div>
+        </div>
+      </section>
+      <section class="container text-center pt-5" id="sec3">
+        <div>
+          <div class="fs-1 my-5 pt-3 ">
+            <span class="bg-warning px-2 text-white"><b>S</b></span>
+            <span class="bg-warning px-2 text-white"><b>E</b></span>
+            <span class="bg-warning px-2 text-white"><b>R</b></span>
+            <span class="bg-warning px-2 text-white"><b>V</b></span>
+            <span class="bg-warning px-2 text-white"><b>I</b></span>
+            <span class="bg-warning px-2 text-white"><b>C</b></span>
+            <span class="bg-warning px-2 text-white"><b>E</b></span>
+            <span class="bg-warning px-2 text-white"><b>S</b></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm my-3" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+            <div class=" bg-light p-3">
+            <i class="fas fa-hotel text-warning fs-1"></i>
+            <h4>Affordable Hotels</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo nihil omnis provident possimus debitis inventore? Voluptas dolorum tenetur blanditiis fuga?</p>
+          </div>
+          </div>
+          <div class="col-sm my-3 ">
+            <div class=" bg-light p-3 "data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <i class="fas fa-utensils text-warning fs-1"></i>
+            <h4>Food And Drinks</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo nihil omnis provident possimus debitis inventore? Voluptas dolorum tenetur blanditiis fuga?</p>
+          </div>
+          </div>
+          <div class="col-sm my-3" data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+            <div class="bg-light p-3 xyz ">
+            <i class="fas fa-bullhorn text-warning fs-1"></i>
+            <h4>Safety Guide</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo nihil omnis provident possimus debitis inventore? Voluptas dolorum tenetur blanditiis fuga?</p>
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm my-3 " data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
+            <div class="bg-light p-3">
+            <i class="fas fa-globe-asia text-warning fs-1"></i>
+            <h4>Around The World</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo nihil omnis provident possimus debitis inventore? Voluptas dolorum tenetur blanditiis fuga?</p>
+          </div>
+          </div>
+          <div class="col-sm my-3">
+            <div class="bg-light p-3"data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <i class="fas fa-plane text-warning fs-1"></i>
+            <h4>Fastest Travel</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo nihil omnis provident possimus debitis inventore? Voluptas dolorum tenetur blanditiis fuga?</p>
+          </div>
+          </div>
+          <div class="col-sm my-3">
+            <div class="bg-light p-3" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <i class="fas fa-hiking text-warning fs-1"></i>
+            <h4>Adventures</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo nihil omnis provident possimus debitis inventore? Voluptas dolorum tenetur blanditiis fuga?</p>
+          </div>
+          </div>
+        </div>
+      </section>
+      <section class="container text-center pt-5" id="sec4">
+        <div>
+          <div class="fs-1 my-5 pt-3 ">
+            <span class="bg-warning px-2 text-white"><b>G</b></span>
+            <span class="bg-warning px-2 text-white"><b>A</b></span>
+            <span class="bg-warning px-2 text-white"><b>L</b></span>
+            <span class="bg-warning px-2 text-white"><b>L</b></span>
+            <span class="bg-warning px-2 text-white"><b>E</b></span>
+            <span class="bg-warning px-2 text-white"><b>R</b></span>
+            <span class="bg-warning px-2 text-white"><b>Y</b></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="mt-3 p-3 bg-dark" id="dd">
+              <img src="./resources/images/p1.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="mt-3 p-3 bg-dark">
+              <img src="./resources/images/p3.jpg" class="img-fluid"  alt="">
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="mt-3 p-3 bg-dark">
+              <img src="./resources/images/p8.jpg" class="img-fluid"  alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="mt-3 p-3 bg-dark">
+              <img src="./resources/images/p7.jpg" class="img-fluid"  alt="">
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="mt-3 p-3 bg-dark">
+              <img src="./resources/images/p5.jpg" class="img-fluid"  alt="">
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="mt-3 p-3 bg-dark">
+              <img src="./resources/images/p6.jpg" class="img-fluid"  alt="">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div class="mt-3 p-3 bg-dark">
+              <img src="./resources/images/p4.jpg" class="img-fluid"  alt="">
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="mt-3 p-3 bg-dark">
+              <img src="./resources/images/p2.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="mt-3 p-3 bg-dark">
+              <img src="./resources/images/p9.jpg" class="img-fluid"  alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container text-center pt-5" id="sec5">
+        <div>
+          <div class="fs-1 my-5 pt-3 ">
+            <span class="bg-warning px-2 text-white"><b>R</b></span>
+            <span class="bg-warning px-2 text-white"><b>E</b></span>
+            <span class="bg-warning px-2 text-white"><b>V</b></span>
+            <span class="bg-warning px-2 text-white"><b>I</b></span>
+            <span class="bg-warning px-2 text-white"><b>E</b></span>
+            <span class="bg-warning px-2 text-white"><b>W</b></span>
+          </div>
+        </div>
+        <div class="row text-start">
+          <div class="col-sm">
+            <div class="p-3 bg-light-subtle my-3">
+              <img src="./resources/images/ashwin-vaswani-rmhiOvhUhiw-unsplash.jpg" class="img-fluid rounded-circle" alt="">
+              <h4></h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quis cumque placeat cupiditate hic dolorum fugit explicabo delectus! Consequatur, culpa.</p>
+              <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="p-3 bg-light-subtle my-3">
+              <img src="./resources/images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" class="img-fluid border rounded-circle" alt="">
+              <h4></h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quis cumque placeat cupiditate hic dolorum fugit explicabo delectus! Consequatur, culpa.</p>
+              <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="p-3 bg-light-subtle my-3">
+              <img src="./resources/images/hans-isaacson-dBdBFfmg7Q0-unsplash.jpg" class="img-fluid border rounded-circle" alt="">
+              <h4></h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quis cumque placeat cupiditate hic dolorum fugit explicabo delectus! Consequatur, culpa.</p>
+              <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="p-3 bg-light-subtle my-3">
+              <img src="./resources/images/radu-florin-JyVcAIUAcPM-unsplash.jpg" class="img-fluid border rounded-circle" alt="">
+              <h4></h4>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quis cumque placeat cupiditate hic dolorum fugit explicabo delectus! Consequatur, culpa.</p>
+              <span class="text-warning "><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container py-5 mb-5" id="sec6">
+        <div>
+          <div class="fs-1 my-5 pt-4 text-center">
+            <span class="bg-warning px-2 text-white"><b>C</b></span>
+            <span class="bg-warning px-2 text-white"><b>O</b></span>
+            <span class="bg-warning px-2 text-white"><b>N</b></span>
+            <span class="bg-warning px-2 text-white"><b>T</b></span>
+            <span class="bg-warning px-2 text-white"><b>A</b></span>
+            <span class="bg-warning px-2 text-white"><b>C</b></span>
+            <span class="bg-warning px-2 text-white"><b>T</b></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <div>
+              <img src="./resources/images/m.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <div class="col-sm">
+            <div>
+              <form>
+                <div class="row">
+                <div class="mb-3 col-sm">
+                  <label for="exampleInputEmail1" class="form-label">Name</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your personal details with anyone else.</div>
+                </div>
+                <div class="mb-3 col-sm">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="mb-3 col-sm">
+                  <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                  <input type="number" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 col-sm">
+                  <label for="exampleInputPassword1" class="form-label">Where You Wanna Go &#129303;</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1">
+                </div></div>
+                <div class="mb-3 col-sm" >
+                  <label for="exampleFormControlTextarea1" class="form-label">Enter Your Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-warning">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section  class="text-center bg-light py-5 container-fluid">
+        <div>
+          <h4 class="text-uppercase">Our Awesome Partners</h4>
+        </div>
+        <div class="my-5"  data-aos="zoom-in" data-aos-duration="2000">
+            <img src="./resources/4202055logosocialsocialmediatraveltripadvisor-115633_115668.png" height="80px" class="mx-3" alt="">
+            <img src="./resources/4664527_2461656.jpg" height="80px" class="mx-3" alt="">
+            <img src="./resources/9472418_4135126.jpg" height="80px" class="mx-3" alt="">
+            <img src="./resources/9544552_4206917.jpg" height="80px" class="mx-3" alt="">
+            <img src="./resources/diving_scuba_diver_sport_summer_icon_123969.png" height="80px" class="mx-3" alt="">
+            <img src="./resources/palm_beach_travel_vacation_leisure_icon-icons.com_53586.png" height="80px" class="mx-3" alt="">
+            <img src="./resources/plane-icon_34103.png" height="80px" class="mx-3" alt="">
+            <img src="./resources/sail_sailing_windsurf_summer_sport_icon_123967.png" height="80px" class="mx-3" alt="">
+            <img src="./resources/travel-holiday-vacation-312_89072.png" height="80px" class="mx-3" alt="">
+            <img src="./resources/travel_airplane_folder_file_10327.png" height="80px" class="mx-3" alt="">
+            <img src="./resources/travel_baloon_1758.png" height="80px" class="mx-3" alt="">
+            <img src="./resources/traveling_woman_travel_bag_icon_176862.png" height="80px" class="mx-3" alt="">
+        </div>
+      </section>
+      <footer class="bg-dark text-white p-5 container-fluid">
+        <div class="row">
+            <div class="col-sm">
+              <a class="navbar-brand" href="#">
+                <img src="resources/images/logo1.png" alt="Logo" height="24" class="d-inline-block align-text-top">
+                <strong id="s1"><span>Angelic</span> Destinations</strong>
+              </a>
+              <div class="mt-3">
+              <p>Destination where it feels like heaven</p>
+            </div>
+            </div>
+          <div class="col-sm">
+            <div>
+              <h4><big>About Us</big></h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illumauteum, eos nobisneque sascasasaaddodio.</p>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div>
+              <h4><big>Branch Locations</big></h4>
+              <dl>
+                <dt><a href="" class="text-decoration-none text-white">India</a></dt>
+                <dt><a href="" class="text-decoration-none text-white">USA</a></dt>
+                <dt><a href="" class="text-decoration-none text-white">Japan</a></dt>
+                <dt><a href="" class="text-decoration-none text-white">France</a></dt>
+              </dl>
+        </div>
+        </div>
+        <div class="col-sm">
+          <div>
+            <h4><big>Quick Links</big></h4>
+            <dl>
+              <dt><a href="" class="text-decoration-none text-white">Home</a></dt>
+              <dt><a href="" class="text-decoration-none text-white">Book</a></dt>
+              <dt><a href="" class="text-decoration-none text-white">Packages</a></dt>
+              <dt><a href="" class="text-decoration-none text-white">Services</a></dt>
+              <dt><a href="" class="text-decoration-none text-white">Gallery</a></dt>
+              <dt><a href="" class="text-decoration-none text-white">Review</a></dt>
+              <dt><a href="" class="text-decoration-none text-white">Contact</a></dt>
+            </dl>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div>
+            <h4><big>Follow Us</big></h4>
+            <dl>
+              <dt> 
+                <a class="text-light mx-2" href="https://www.facebook.com">
+                <i class="fab fa-facebook fs-2"></i></a></dt>
+              <dt>
+              <dt>
+                <a class="text-light mx-2" href="https://www.instagram.com">
+                <i class="fab fa-instagram fs-2"></i></a>
+             </dt>
+                <a class="text-light mx-2" href="https://www.twitter.com">
+                <i class="fab fa-twitter-square fs-2"></i></a></dt>
+              <dt> <a class="text-light mx-2" href="https://www.twitter.com">
+                <i class="fab fa-linkedin fs-2"></i></a></dt>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <hr/>
+        <p>Created By <big><strong id="st">Pushpendra Pratap Singh Rathore</strong></big> AKA <span id="st">WEB MONSTER</span> | All Right Reserved<sup>&reg;</sup></p>
+      </div>
+    </footer>
+    <span id="top-button" class="text-danger"><i class="fa-solid fa-circle-up fa-2x"></i></span>
+    
+      <!-- Modal -->
+<div class="modal fade" id="MyModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" class="text-center">
+          <h1 class="modal-title fs-5 text-warning text-end"  id="exampleModalLabel">LOGIN</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form name="google-sheet">
+            <input type="email" class="form-control my-3" name="Email" maxlength="100" placeholder="Enter Your Email" required />
+            <!-- pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{6,}$" -->
+            <input type="password" class="form-control my-3" name="Password"  maxlength="20" minlength="8" placeholder="Enter Your Password" required />
+            <!-- <span id="passwordHelpInline" class="form-text"> Must be 8-20 characters long.</span> -->
+            <div class="d-grid gap-2 my-3">
+                <button class="btn btn-warning" type="submit" data-bs-dismiss="modal">Login Now</button>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+              </div>
+              <div class="form-text">
+                <p>Forgot Password? <a href="" class="text-warning text-decoration-none">Click Here</a></p>
+                <p>Don't Have An Account <a href="" class="text-warning text-decoration-none">Register Now</a></p>
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Custom JS -->
+
+<script src="./resources/style.js"></script>
+
+
+<script>
+
+  // AOS
+
+  AOS.init();
+
+  //Top-Button
+
+  $("#top-button").click(function (){
+    $("html,body").animate({scrollTop:0},1000);
+  });
+
+  // Script for Google Sheet
+
+    var scriptURL = "https://script.google.com/macros/s/AKfycbzX14XeqQ-zfsFyvMnkfkaTReS93d0-8jhCAM27VM0lxQB3Smv1ZLCwdsKmV2pJDmpPYA/exec";
+    var form = document.forms['google-sheet'];
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+      .catch(error => console.error('Error!', error.message))
+    });
+</script>
+
+</html>

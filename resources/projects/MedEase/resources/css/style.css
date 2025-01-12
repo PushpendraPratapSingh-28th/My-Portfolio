@@ -1,0 +1,83 @@
+.nav-link:hover{
+    color: #031392;
+}
+.nav-link{
+    color: gray;
+}
+.rainbow{
+    background: linear-gradient(90deg,#ff2403,#0622f1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+#color{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin: 20px 0px;
+    width: max-content;
+}
+#colorr{
+    background-color: rgb(254, 245, 245);
+    border-radius: 20px;
+    padding: 3px 10px;
+    margin: 20px 0px;
+    width: max-content;
+}
+.xyz{
+    transition: 1s;
+}
+.xyz:hover{
+    transform: scale(1.2);
+}
+#my-cards{
+    text-align: center;
+    margin-top: -15px;
+}
+#dishes img{
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.c-dishes-card{
+    padding: 20px;
+    background:linear-gradient(to right, rgb(49, 127, 200) 50%,rgb(255, 255, 255) 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: 1s;
+    border-radius: 20px;
+    border: 0.2px solid rgb(175, 169, 169);
+}
+.c-dishes-card:hover{
+    background-position: left;
+    color: white;
+}
+.c-get-in-touch{
+    transition: .5s;
+}
+.c-get-in-touch:hover{
+    transform: translate(5px,0px);
+}
+.card{
+    padding: 10px;
+    background: linear-gradient(120deg,#e330e651,#5666e137);
+    background-size: 200%;
+    background-position: right;
+    transition: 1s;
+    border-radius: 20px;
+}
+#top-button{
+    color: rgb(21, 105, 21);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.box{
+    background-color: rgb(251, 246, 0);
+    position: relative;
+    /* left: 60px; */
+    top: -50px;
+}

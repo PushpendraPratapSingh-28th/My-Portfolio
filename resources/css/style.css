@@ -58,6 +58,14 @@ img {
     height: auto;
 }
 
+.container-fluid {
+    padding-top: 48px;
+}
+
+.container {
+    padding-top: 48px;
+}
+
 .container>h2 {
     text-align: center;
     padding-bottom: 48px;
@@ -99,7 +107,9 @@ img {
 /*******************************/
 
 nav {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
     font-weight: 500;
     letter-spacing: 1px;
     background-color: transparent;
@@ -109,6 +119,7 @@ nav {
 .navbar {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 999;
 }
@@ -186,39 +197,22 @@ nav {
 /*******************************/
 /********* About CSS ***********/
 /*******************************/
-/* #about {
-    background-color: aliceblue;
-    color: rgb(39, 41, 59);
-} */
 
-/* #about h2,
-h3,
-h5,
-a {
-    color: rgb(39, 41, 59);
-} */
+.about-text {
+    text-align: justify;
+}
 
 .about-btn {
     margin-top: 30px;
 }
 
-/* .about-btn a {
+.about-btn a {
     border-radius: 0;
-    color: rgb(39, 41, 59);
-} */
-
-/* .about-btn a:hover {
-    background-color: rgb(39, 41, 59);
-    color: aliceblue;
-} */
+}
 
 .about-info p {
     margin: 0;
     font-weight: 500;
-}
-
-.about-info .col {
-    padding: 20px 12px;
 }
 
 /*******************************/
@@ -265,31 +259,40 @@ a {
 }
 
 .project-2 {
-    background-image: url(../images/project-images/Pizza-Landing-Page.png);
+    background-image: url(../images/project-images/Architect\ Landing-Page.png);
 }
 
 .project-3 {
-    background-image: url(../images/project-images/Christmas-Landing-Page.png);
+    background-image: url(../images/project-images/Bike\ Stunt.png);
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-position:top center;
+    transition: 4s ease-in-out;
+    cursor: pointer;
+}
+.project-3:hover{
+    background-position: bottom center;
 }
 
 .project-4 {
-    background-image: url(../images/project-images/E-Commerce-Website.png);
+    background-image: url(../images/project-images/FreightX-Website.png);
 }
 
 .project-5 {
-    background-image: url(../images/project-images/Foodies.png);
+    background-image: url(../images/project-images/MedEase-Website.png);
 }
 
 .project-6 {
-    background-image: url(../images/project-images/HeadPhones.png);
+    background-image: url(../images/project-images/FoodBox-Website.png);
 }
 
 .project-7 {
-    background-image: url(../images/project-images/App-Landing-Page.png);
+    background-image: url(../images/project-images/Car-Rental.png);
 }
 
 .project-8 {
-    background-image: url(../images/project-images/Hashtag-Landing-Page.png);
+    background-image: url(../images/project-images/Tour\ and\ Travel-Website.png);
 }
 
 .bg-img {
@@ -299,10 +302,25 @@ a {
     border-radius: 10px;
     background-position: top center;
     transition: 4s ease-in-out;
+    cursor: pointer;
 }
 
 .bg-img:hover {
     background-position: bottom center;
+}
+
+.link {
+    text-align: center;
+    padding: 10px 5px;
+    background-color: aliceblue;
+    margin-top: 1px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.link a {
+    color: red;
+    font-weight: 500;
 }
 
 /*******************************/
@@ -325,6 +343,7 @@ a {
     height: 100%;
     min-height: 230px;
     background-color: rgb(20, 20, 20);
+    padding: 20px 10px;
     cursor: pointer;
     transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
     box-shadow: 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
@@ -395,9 +414,14 @@ a {
 /*******************************/
 /********* Contact CSS *********/
 /*******************************/
+
 .contact-text {
     margin-top: 20px;
     font-weight: 500;
+}
+
+.contact-info h3 {
+    margin-bottom: 10px;
 }
 
 .social-links a {
@@ -423,13 +447,4 @@ footer {
 
 .get-in-touch p {
     line-height: 10px;
-}
-
-
-/* Back to Top Button */
-#top-button {
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    cursor: pointer;
 }

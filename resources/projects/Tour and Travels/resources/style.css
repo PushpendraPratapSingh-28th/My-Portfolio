@@ -1,0 +1,26 @@
+#st,#s1>span{
+    color: red;
+}
+.navbar-brand{
+    background: linear-gradient(to right,rgba(0, 132, 255, 0.621),rgba(2, 0, 11, 0.423));
+    padding: 5px;
+    padding-right: 10px;
+    box-shadow: 0 0 5px rgb(0, 238, 255), 0 0 25px rgb(0, 238, 255);
+}
+.navbar-brand:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,0 0 50px cyan,0 0 100px cyan,0 0 200px cyan
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: red;
+    border-bottom: 2px solid blue;
+    width: max-content;
+}
+#top-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+

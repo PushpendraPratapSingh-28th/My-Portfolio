@@ -23,7 +23,7 @@ $(document).ready(function () {
   });
 
   // Google Sheet
-  var scriptURL = "https://script.google.com/macros/s/AKfycbzCM-JvDPoMOn6VQEj28ReWYeuJYX-KVa2IHY1zzMVyDFpnw7Q2czHVS2GBS0b8vezH/exec";
+  var scriptURL = "https://script.google.com/macros/s/AKfycby9eHhkQ5BV-4Kuq6Fd0HyEhOJkrXh0mlxZzjWuHaAab5dzZ31WFJiOA84y_MxvuURn/exec";
   var form = document.forms['google-sheet'];
   form.addEventListener('submit', e => {
     e.preventDefault()
