@@ -78,6 +78,10 @@
     #contact .contact-info {
         margin-bottom: 20px;
     }
+    .reserved{
+        display: block;
+        text-align: center;
+    }
 }
 
 /* @media(min-width:576px) and (max-width:768px) {
