@@ -32,4 +32,7 @@ $(document).ready(function () {
       .catch(error => console.error('Error!', error.message))
   });
 
+  // Current Year
+  document.getElementById("year").innerHTML = new Date().getFullYear();
+
 });
