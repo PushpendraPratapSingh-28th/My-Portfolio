@@ -7,23 +7,25 @@
         body {
             margin: 0;
             background-color: bisque;
-           }
+        }
 
 
-        #bike{
+        #bike {
             height: 100px;
             position: relative;
             /* animation: Rotation linear .9s infinite; */
             z-index: 1;
         }
-        #im{
+
+        #im {
             width: 100%;
             height: 400px;
             position: absolute;
             left: 0;
             top: 350px;
         }
-        #im2{
+
+        #im2 {
             height: 80px;
             position: absolute;
             top: 480px;
@@ -38,7 +40,7 @@
         /* .abc{
             background-color: blue;
         } */
-        #l1{
+        #l1 {
             width: 300px;
             background-color: black;
             height: 10px;
@@ -47,16 +49,18 @@
             left: 230px;
             transform: rotate(-45deg);
         }
-        #l2{
+
+        #l2 {
             width: 50px;
             background-color: black;
             height: 10px;
             position: relative;
             top: 465px;
             left: 230px;
-            
+
         }
-        #l3{
+
+        #l3 {
             width: 300px;
             background-color: black;
             height: 10px;
@@ -65,26 +69,29 @@
             right: 365px;
             transform: rotate(45deg);
         }
-        #l4{
+
+        #l4 {
             width: 50px;
             background-color: black;
             height: 10px;
             position: absolute;
             top: 575px;
             right: 364px;
-            
+
         }
-        #l5{
+
+        #l5 {
             width: 100px;
             background-color: black;
             height: 10px;
             position: absolute;
-            top:500px;
+            top: 500px;
             right: 50px;
             transform: rotate(90deg);
-            
+
         }
-        #l6{
+
+        #l6 {
             width: 100px;
             background-color: black;
             height: 10px;
@@ -93,9 +100,10 @@
             right: 0px;
             transform: rotate(90deg);
             z-index: 2;
-            
+
         }
-        #l7{
+
+        #l7 {
             text-align: center;
             width: 130px;
             background-color: white;
@@ -107,15 +115,15 @@
             z-index: 3;
             /* transform: rotateY(-130deg); */
             /* transform:skewX() */
-            
+
         }
-   
+
         /* @keyframes Rotation {
             100%{
                 transform: rotate(360deg);
             }
         } */
-        #dd{
+        #dd {
             position: absolute;
             width: max-content;
             font-size: large;
@@ -123,24 +131,31 @@
             text-align: center;
             color: red;
         }
-        #dd>h1,h2{
-            text-shadow:0 0 5px rgb(255, 42, 0), 0 0 25px rgb(255, 42, 0) ;
+
+        #dd>h1,
+        h2 {
+            text-shadow: 0 0 5px rgb(255, 42, 0), 0 0 25px rgb(255, 42, 0);
             transition: 1 sec;
         }
-        #dd>h1,h2:hover{
-            text-shadow: 0 0 5px rgb(255, 38, 0),0 0 25px rgb(255, 38, 0),0 0 50px rgb(255, 38, 0),0 0 100px rgb(255, 38, 0),0 0 200px rgb(255, 42, 0);
+
+        #dd>h1,
+        h2:hover {
+            text-shadow: 0 0 5px rgb(255, 38, 0), 0 0 25px rgb(255, 38, 0), 0 0 50px rgb(255, 38, 0), 0 0 100px rgb(255, 38, 0), 0 0 200px rgb(255, 42, 0);
             transform: scale(1.2);
         }
-        h2{
+
+        h2 {
             margin-top: -20px;
         }
-        #im3{
+
+        #im3 {
             height: 200px;
             position: absolute;
             top: 380px;
             left: 390px;
         }
-        #im4{
+
+        #im4 {
             height: 200px;
             position: absolute;
             top: 380px;
@@ -154,21 +169,22 @@
         <h1>BMX</h1>
         <h2>Xtreme Stunt Show</h2>
     </div>
-        <img id="bike" src="https://i.pinimg.com/originals/fe/a9/2f/fea92f50aa6db93e3a5e9ae9aa27b2a7.gif"
-            alt="bike">
-         <img id="im" src="./BeautifulBronzeDorking-size-re-unscreen.gif" alt="">   
-         <img id="im2" src="./giphy-1--unscreen.gif" alt="">
-         <img id="im3" src="./CoarseIndolentHairstreakbutter-unscreen.gif" alt="">
-         <img id="im4" src="./CoarseIndolentHairstreakbutter-unscreen.gif" alt="">
-         <div id="lt">
-            <div id="l1"></div>
-            <div id="l2"></div>
-            <div id="l3"></div>
-            <div id="l4"></div>
-            <div id="l5"></div>
-            <div id="l6"></div>
-            <div id="l7"><b>FINISH</b></div>
-        </div>
+    <div>
+        <img id="bike" src="https://i.pinimg.com/originals/fe/a9/2f/fea92f50aa6db93e3a5e9ae9aa27b2a7.gif" alt="bike">
+        <img id="im" src="./BeautifulBronzeDorking-size-re-unscreen.gif" alt="">
+        <img id="im2" src="./giphy-1--unscreen.gif" alt="">
+        <img id="im3" src="./CoarseIndolentHairstreakbutter-unscreen.gif" alt="">
+        <img id="im4" src="./CoarseIndolentHairstreakbutter-unscreen.gif" alt="">
+    </div>
+    <div id="lt">
+        <div id="l1"></div>
+        <div id="l2"></div>
+        <div id="l3"></div>
+        <div id="l4"></div>
+        <div id="l5"></div>
+        <div id="l6"></div>
+        <div id="l7"><b>FINISH</b></div>
+    </div>
 </body>
 <script>
     var bike = document.getElementById("bike");
@@ -176,38 +192,38 @@
     var y = 500;
     var dx = 1;
     var dy = 0;
-    var z=0;
-       setInterval(function () {
-            x += dx;
-            y += dy;
-            z++;
-            if(x>200 && x<600){
-                dy=-1;
-                bike.style.transform="rotate(-45deg)";
-            }
-            if(x>600 && x<700){
-                dy=0;
-                dx=.2;
-                // bike.style.animation="wheelRotation linear .9s infinite;";
-                    bike.style.transform='rotate('+-z+'deg)';
-            }
-            if(x>700 && x<1000){
-                dy=1;
-                dx=1;
-                bike.style.transform="rotate(45deg)";
-            }
-            if(x>1090){
-                dy=0;
-                bike.style.transform="rotate(0deg)";
-            }
-            if(x>1420 || x<0){
-                dx*=0;
-            }
-            
-                bike.style.left = x + "px";
-                bike.style.top = y + "px";
-               
-            }, 1);
+    var z = 0;
+    setInterval(function () {
+        x += dx;
+        y += dy;
+        z++;
+        if (x > 200 && x < 600) {
+            dy = -1;
+            bike.style.transform = "rotate(-45deg)";
+        }
+        if (x > 600 && x < 700) {
+            dy = 0;
+            dx = .2;
+            // bike.style.animation="wheelRotation linear .9s infinite;";
+            bike.style.transform = 'rotate(' + -z + 'deg)';
+        }
+        if (x > 700 && x < 1000) {
+            dy = 1;
+            dx = 1;
+            bike.style.transform = "rotate(45deg)";
+        }
+        if (x > 1090) {
+            dy = 0;
+            bike.style.transform = "rotate(0deg)";
+        }
+        if (x > 1420 || x < 0) {
+            dx *= 0;
+        }
+
+        bike.style.left = x + "px";
+        bike.style.top = y + "px";
+
+    }, 1);
 </script>
 
 </html>
