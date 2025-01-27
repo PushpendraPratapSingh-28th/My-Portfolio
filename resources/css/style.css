@@ -63,15 +63,18 @@ img {
 }
 
 .container {
-    padding-top: 48px;
+    /* padding-top: 48px; */
 }
 
 .container>h2 {
     text-align: center;
-    padding-bottom: 48px;
+    margin: 48px 0;
     font-size: xxx-large;
     text-transform: uppercase;
     font-weight: bold;
+    /* color: red; */
+    border-top: 5px solid aliceblue;
+    border-bottom: 5px solid aliceblue;
 }
 
 /* Button Styles */
@@ -367,10 +370,12 @@ nav {
 
 #review h2 {
     text-align: center;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     font-size: xxx-large;
     text-transform: uppercase;
     font-weight: bold;
+    border-top: 5px solid aliceblue;
+    border-bottom: 5px solid aliceblue;
 }
 
 .carousel {
